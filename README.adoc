@@ -174,14 +174,6 @@ https://github.com/FasterXML/jackson[Jackson 2] is on the classpath, Spring's
 https://docs.spring.io/spring/docs/{spring_version}/javadoc-api/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.html[`MappingJackson2HttpMessageConverter`]
 is automatically chosen to convert the `Greeting` instance to JSON.
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/spring-boot-application-new-path.adoc[]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/build_an_executable_jar_subhead.adoc[]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/build_an_executable_jar_with_both.adoc[]
-
-Logging output is displayed. The service should be up and running within a few seconds.
-
 
 == Test the Service
 
@@ -205,38 +197,4 @@ attribute changes from `Hello, World!` to `Hello, User!`, as the following listi
 ----
 ====
 
-This change demonstrates that the `@RequestParam` arrangement in `GreetingController` is
-working as expected. The `name` parameter has been given a default value of `World` but
-can be explicitly overridden through the query string.
-
-Notice also how the `id` attribute has changed from `1` to `2`. This proves that you are
-working against the same `GreetingController` instance across multiple requests and that
-its `counter` field is being incremented on each call as expected.
-
-== Summary
-
-Congratulations! You have just developed a RESTful web service with Spring.
-
-== See Also
-
-The following guides may also be helpful:
-
-* https://spring.io/guides/gs/accessing-gemfire-data-rest/[Accessing GemFire Data with REST]
-* https://spring.io/guides/gs/accessing-mongodb-data-rest/[Accessing MongoDB Data with REST]
-* https://spring.io/guides/gs/accessing-data-mysql/[Accessing data with MySQL]
-* https://spring.io/guides/gs/accessing-data-rest/[Accessing JPA Data with REST]
-* https://spring.io/guides/gs/accessing-neo4j-data-rest/[Accessing Neo4j Data with REST]
-* https://spring.io/guides/gs/consuming-rest/[Consuming a RESTful Web Service]
-* https://spring.io/guides/gs/consuming-rest-angularjs/[Consuming a RESTful Web Service with AngularJS]
-* https://spring.io/guides/gs/consuming-rest-jquery/[Consuming a RESTful Web Service with jQuery]
-* https://spring.io/guides/gs/consuming-rest-restjs/[Consuming a RESTful Web Service with rest.js]
-* https://spring.io/guides/gs/securing-web/[Securing a Web Application]
-* https://spring.io/guides/tutorials/rest/[Building REST services with Spring]
-* https://spring.io/guides/tutorials/react-and-spring-data-rest/[React.js and Spring Data REST]
-* https://spring.io/guides/gs/spring-boot/[Building an Application with Spring Boot]
-* https://spring.io/guides/gs/testing-restdocs/[Creating API Documentation with Restdocs]
-* https://spring.io/guides/gs/rest-service-cors/[Enabling Cross Origin Requests for a RESTful Web Service]
-* https://spring.io/guides/gs/rest-hateoas/[Building a Hypermedia-Driven RESTful Web Service]
-* https://spring.io/guides/gs/circuit-breaker/[Circuit Breaker]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/footer.adoc[]
+Thanks For Reading / Using - Ashok Maurya
