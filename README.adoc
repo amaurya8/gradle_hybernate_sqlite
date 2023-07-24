@@ -1,18 +1,12 @@
-:spring_version: current
-:toc:
-:project_id: gs-rest-service
-:icons: font
-:source-highlighter: prettify
-
-This guide walks you through the process of creating a "`Hello, World`" RESTful web
-service with Spring.
 
 == What You Will Build
 
-You will build a service that will accept HTTP GET requests at
+You will build a service that will accept HTTP GET requests at 
 `http://localhost:8080/greeting`.
 
-It will respond with a JSON representation of a greeting, as the following listing shows:
+It will respond with a JSON representation of a greeting, as the following listing shows and FINALY Loads this Greeting messages to sql_lite database. 
+
+# This project helps to build utility where we can extract data from rest end point, map it to pojo and then using hibernate load it to any database, that way we can create our own data-mart.
 
 ====
 [source,json]
